@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find it! A simple game with an object detection AI model</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a80508866.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="title"><a href="#">Find it!</a></h1>
+        <!-- <button class="theme-button"><i class="fa-solid fa-sun"></i></button> -->
+        <a href="https://www.linkedin.com/in/yunus-kedir" target="_blank" class="contact">Contact</a>
+    </header>
+    
+    <main>
+        <p class="item">Find me a  :   </p>
+        <div class="video-div"><video width="300" height="300"></video></div>
+        <div class="buttons"><button class="image-capture">Snap</button><button class="next">Next Item</button></div>
+        <div class="result"><button class="success">Next item</button></div>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/
+dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/
+mobilenet@1.0.0"></script>
+        <script type="module" src="./script.js"></script>
+    </main>
+</body>
+</html>
